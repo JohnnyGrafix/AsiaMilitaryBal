@@ -1,0 +1,71 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.us {
+	position: relative;
+	justify-content: centerx;
+	border: 1px solid grey;
+}
+.us img {
+}
+.usspend {
+	position: absolute;
+	width: 85%;
+	top: 12.5%;
+	left: 9%
+}
+h2, p{
+	margin: 0;
+	padding: 0;
+}
+#usa {
+	position: absolute;
+	color: #942C61;
+	top: 20%;
+	left: 15%;
+	}
+.countrytext {
+	font-size: 1.5rem;
+}
+.smallScreen {
+	display: none;
+}
+@media only screen and (max-width: 480px){
+	.us {
+		display: none;
+	}
+	.smallScreen {
+		display: block;
+	}
+	.eastWest {
+		position: relative;
+		width: 100%;
+	}
+	#usRing {
+	    position: absolute;
+	    width: 60%;
+		top: 15%;
+		left: 5%;		
+	}
+	.east {
+		position: relative;
+		width: 100%;
+	}
+	#otherRings {
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+	.fixme {
+		position: fixed;
+	}
+}
+@media only screen and (max-width: 700px) and (min-width: 480px){
+	.countrytext {
+		font-size: 1.0rem;
+	}
+	
+}
+
+
