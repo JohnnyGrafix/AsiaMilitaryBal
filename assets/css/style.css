@@ -37,28 +37,64 @@ h2, p{
 	.smallScreen {
 		display: block;
 	}
-	.eastWest {
+	.west {
 		position: relative;
 		width: 100%;
+		padding-top: 60px;
 	}
 	#usRing {
 	    position: absolute;
 	    width: 60%;
 		top: 15%;
-		left: 5%;		
+		left: 0%;		
+	}
+	#usSmall {
+		position: absolute;
+		top: 35%;
+		left: 8%;
 	}
 	.east {
 		position: relative;
 		width: 100%;
+		
 	}
 	#otherRings {
 		position: absolute;
-		width: 100%;
-		top: 0;
-		left: 0;
+		width: 60%;
+		top: 24%;
+		left: 23%;
+	}
+	#russiaSmall {
+		position: absolute;
+		top: 32%;
+		left: 8%;
+	}
+	#chinaSmall {
+		position: absolute;
+		top: 50%;
+		left: 35%;
+	}
+	#skoreaSmall {
+		position: absolute;
+		top: 65%;
+		left: 45%;
+	}
+	#japanSmall {
+		position: absolute;
+		top: 45%;
+		left: 74%;
+	}
+	#nkoreaSmall {
+		position: absolute;
+		top: 15%;
+		left: 65%;
 	}
 	.fixme {
 		position: fixed;
+		z-index: 10;
+	}
+	button {
+		height: 50px;
 	}
 }
 @media only screen and (max-width: 700px) and (min-width: 480px){
